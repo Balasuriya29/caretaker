@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container-fluid" style="background-color: #008CCB;height: 75px;">
+        <div class="container">
+            <div class="navbar-header">
+                <a style="margin-top:15px;color: white;font-weight: bold;" class="navbar-brand" href="#">CARETAKER</a>    
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-light" style="background-color:#a0cae9; ">
+        <div class="container-fluid">
+            <div class="container">
+            <div class="navbar-header">
+                <!--SideBar Button-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+                </button>
+                
+            </div>
+            <div class="collapse navbar-collapse" id="myNavBar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home.html">Home</a></li>
+                    <li style="background-color: azure;" class="dropdown">
+                        <!--Dropdown Button-->
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="index3.html">Specialized Doctors<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="index3.html">Cardiac</a></li>
+                          <li><a href="index3.html">Artho</a></li>
+                          <li><a href="index3.html">Neuro</a></li>
+                        </ul>
+                    <li><a href="index2.html">Blood Donations</a></li>
+                    <li><a href="#">Hospitals Around Me</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index4.html">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">Admin</a></li>
+              </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <center>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="Images/image1.jpg" alt="Los Angeles">
+          </div>
+      
+          <div class="item">
+            <img src="Images/image2.jpg" alt="Chicago">
+          </div>
+      
+          <div class="item">
+            <img src="Images/image3.jpg" alt="New York">
+          </div>
+
+          <div class="item">
+            <img src="Images/image4.jpg" alt="New York">
+          </div>
+        </div>
+    </center>
+
+    <!--SideNav-->
+    <div class="container" style="width: 20%; float:left;position: absolute;">
+        <br>
+        <h4>CARETAKER</h4>
+        <p>Get in Touch with the Available doctors</p>
+        <br><br>
+        <ul class="nav nav-pills nav-stacked">
+            
+            <!--Panel 2-->
+              <div class="panel-group">
+                <div class="panel panel-light">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <li class="active"><a data-toggle="collapse" href="#collapse2">Specialist</a></li>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body"><li><a href="#cardio">Cardiac</a></li></div>
+                    <div class="panel-body"><li><a href="#artho">Artho</a></li></div>
+                    <div class="panel-body"><li><a href="#neuro">Neuro</a></li></div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </ul>
+</div>
+<br><br><br>
+<section>
+    <div class="container-fluid">
+        <div class="container" style="background-color: azure;width:80%; float: right; text-align: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31330.266932265746!2d76.94328842735239!3d11.017353264871524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858efd96becf7%3A0xb9764d2dd1b8712e!2sGanga%20Hospital!5e0!3m2!1sen!2sin!4v1640739351105!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+</body>
+</html>
