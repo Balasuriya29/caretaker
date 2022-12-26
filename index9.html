@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registor form</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+  </head>
+  <body>
+    <!-- <div class="container">
+        <div class="signin">
+            <div class="img"><img src="sign-in.jpg"></div>
+            <div class="form">
+                <form>
+                    <h2>SIGN IN</h2>
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <input type="submit" value="Login">
+                    <p class="foot">Don't have an account? <a href="#">Sign Up</a></p>
+                </form>
+            </div>
+        </div> -->
+
+    <div class="container">
+      <div class="signin">
+        <div class="img"><img src="Images/sign-up.jpg" /></div>
+        <div class="form">
+          <form
+            action="index.html"
+            method="POST"
+            enctype="multipart/form-data"
+            onsubmit="return registor();"
+          >
+            <h2>CREATE AN ACCOUNT</h2>
+            <input id="user2" type="text" placeholder="Username" />
+            <input id="email2" type="email" placeholder="Email Address" />
+            <input id="pass2" type="password" placeholder="Create Password" />
+            <input id="pass3" type="password" placeholder="Confirm Password" />
+            <input type="checkbox" onclick="showPasswordSignUpForm()" />
+            <input type="submit" value="Sign Up" />
+            <br />
+            [Check the Checkbox to Show Password]
+            <br />
+            <br />
+            <p>
+              Already have an account?
+              <a href="index4.html">Sign In</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

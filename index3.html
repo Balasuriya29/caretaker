@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Specialized Doctors - CARETAKER</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container-fluid" style="background-color: #008CCB;height: 75px;">
+        <div class="container">
+            <div class="navbar-header">
+              <a style="margin-top:15px;color: white;font-weight: bold;" class="navbar-brand" href="#">CARETAKER</a>    
+              <a href="#"><img class="acc" style="margin-left: 910px;" src="Images/image11.png" height="60"></a> 
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-light" style="background-color:#a0cae9; ">
+        <div class="container-fluid">
+            <div class="container">
+            <div class="navbar-header">
+                <!--SideBar Button-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+                </button>
+                
+            </div>
+            <div class="collapse navbar-collapse" id="myNavBar">
+                <ul id="header_ul" class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li style="background-color: azure;" class="dropdown">
+                        <!--Dropdown Button-->
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="index3.html">Specialized Doctors<span class="caret"></span></a>
+                        <ul  class="dropdown-menu">
+                          <li style="padding-bottom: 20px;"><a href="index3.html">Cardiac</a></li>
+                          <li style="padding-bottom: 20px;"><a href="index3.html">Artho</a></li>
+                          <li style="padding-bottom: 20px;"><a href="index3.html">Neuro</a></li>
+                        </ul>
+                    <li><a href="index2.html">Blood Donations</a></li>
+                    <li><a target="blank" href="https://www.google.com/maps/search/hospital+around+me/">Hospitals Around Me</a></li>
+                </ul>
+                <ul id="header_ul"  class="nav navbar-nav navbar-right">
+                  <li><a href="index4.html">Login</a></li>
+                  <li><a href="index9.html">Sign Up</a></li>
+                  <li><a href="index6.html">Admin</a></li>
+              </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <center>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="Images/image1.jpg" alt="Image1">
+          </div>
+      
+          <div class="item">
+            <img src="Images/image2.jpg" alt="Image2">
+          </div>
+      
+          <div class="item">
+            <img src="Images/image3.jpg" alt="Image3">
+          </div>
+
+          <div class="item">
+            <img src="Images/image4.jpg" alt="Image4">
+          </div>
+        </div>
+    </center>
+
+    <!--SideNav-->
+    <div class="container" style="width: 20%; float:left;position: absolute;">
+        <br>
+        <h4>CARETAKER</h4>
+        <p>Get in Touch with the Available doctors</p>
+        <br><br>
+        <ul class="nav nav-pills nav-stacked">
+            
+            <!--Panel 2-->
+              <div class="panel-group">
+                <div class="panel panel-light">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <li class="active"><a data-toggle="collapse" href="#collapse2">Specialist</a></li>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div id="header_ul" class="panel-body"><li><a href="#cardio">Cardiac</a></li></div>
+                    <div id="header_ul" class="panel-body"><li><a href="#artho">Artho</a></li></div>
+                    <div id="header_ul" class="panel-body"><li><a href="#neuro">Neuro</a></li></div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </ul>
+</div>
+<br><br><br>
+  <!-- Modal 1 -->
+  <div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+          <img src="Images/image8.jpg" width="100px" height="100px">
+          <br>
+          <p>Advice: A cardiologist can determine if a heart condition is the cause. These symptoms may be a sign of abnormal heart rhythm or coronary artery disease.</p>
+          <p>Speciality: Coronary Artery Disease, Angina Pectoris, Myocardial Infarction, Heart Block,Cardiomyopathy, Arrhythmia, Hypertension, Heart Failure & Atherosclerosis </p>
+          <p>Contact No: xxxxxxxxxx</p>
+          <p>Email Id: xxx@gmail.com</p>
+          <button class="btn btn-primary">Get Appointment</button>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+   <!-- Modal 2 -->
+   <div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Blood pressure is the force of the blood pushing against the artery walls. Chronically elevated blood pressure causes the heart to work harder to circulate blood, and increases the risk of heart attack and stroke.</p>
+            <p>Speciality: Electro Cardiogram(ECG), TMT(Stress EKG), Ischemic and Rheumatic Heart Disease, Echo Cardiogram, Cardiac Rhythm Abnormality, Hypertension and Related Problem, Acute Coronary Syndrome, Atrial Fibrillation, Complete Heart Block, Angina, Inflammatory Disease of the Heart & Congestive Heart Failure </p>
+            <p>Contact No: yyyyyyyyyy</p>
+            <p>Email Id: yyy@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="myModal3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Exercise has a number of health benefits, and plays a key role in the prevention and treatment of heart disease. However, certain heart conditions can make exercise unsafe. If you’re considering a new workout regime after being inactive, or have a number of the risk factors for heart disease as listed above, you should consult your physician first. One marathon runner credits this step with saving his life.</p>
+            <p>Speciality: Coronary Artery Disease, Angina Pectoris, Myocardial Infarction, Heart Block,Cardiomyopathy, Arrhythmia, Hypertension, Heart Failure & Atherosclerosis </p>
+            <p>Contact No: vvvvvvvvvvv</p>
+            <p>Email Id: vvv@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="myModal4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Smoking is one of the major preventable risk factors for heart disease and can contribute to high blood pressure and cancer risk. Get tips on quitting.</p>
+            <p>Speciality: Angina Pectoris, Cardiac Arrhythmia, Angiography, Heart Failure, Hypertension, Atherosclerosis, Cardiomyopathy, Coronary Angioplasty & Peripheral Artery Disease Treatments</p>
+            <p>Contact No: zzzzzzzzzz</p>
+            <p>Email Id: zzz@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div id="myModal5" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Arteries are the blood vessels that deliver oxygen-rich blood from your heart to the rest of your body. If you have known disease in other arteries, such as the leg arteries or the large blood vessels to the brain (carotid arteries), you are more likely to also have coronary artery disease. A cardiologist can discuss whether other testing is warranted as well as treatment options.</p>
+            <p>Speciality: Electro Cardiogram(ECG), TMT(Stress EKG), Ischemic and Rheumatic Heart Disease, Echo Cardiogram, Cardiac Rhythm Abnormality, Hypertension and Related Problem, Acute Coronary Syndrome, Atrial Fibrillation, Complete Heart Block, Angina, Inflammatory Disease of the Heart & Congestive Heart Failure</p>
+            <p>Contact No: wwwwwwwwww</p>
+            <p>Email Id: www@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div id="myModal6" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Certain types of heart disease can be genetic. If a relative has had early-onset heart disease (under age 55 in men and 65 in women), then a cardiologist can help determine how this affects your risk, and may order testing or recommend preventive strategies.</p>
+            <p>Speciality: Angina Pectoris, Cardiac Arrhythmia, Angiography, Heart Failure, Hypertension, Atherosclerosis, Cardiomyopathy, Coronary Angioplasty & Peripheral Artery Disease Treatments</p>
+            <p>Contact No: uuuuuuuuuu</p>
+            <p>Email Id: uuu@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+<section id="cardio">
+  <div class="container-fluid">
+    <div class="container" style="background-color: azure;width:80%; float: right; text-align: center;">
+      <div class="col-md-12">
+        <h1>Cardiologist</h1>
+        <br><br>
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="1" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Cardiologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Click to view More</button>
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="2" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Cardiologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Click to view More</button>
+      </div>
+      
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="3" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Cardiologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="4" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Cardiologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Click to view More</button>
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="5" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Cardiologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">Click to view More</button>
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="6" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Cardiologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">Click to view More</button>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br>
+  <!-- Modal 7 -->
+  <div id="myModal7" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Reputable orthopedic specialists backed by robust health care systems are more likely to restore lives using advanced non-surgical techniques, from minimally invasive procedures to computer-assisted treatments to the harvesting and growth of your own cells for cartilage repair.</p>
+            <p>Speciality: Orthopedist
+            </p>
+            <p>Contact No: aaaaaaaaaa</p>
+            <p>Email Id: aaa@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+   <!-- Modal 8 -->
+   <div id="myModal8" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Penn Medicine takes sub-specialization one step further, to hyper-specialization. This means we routinely see and treat extreme, unique, and high-risk cases that others aren’t able to handle</p>
+            <p>Speciality: Orthopedist
+            </p>
+            <p>Contact No: dddddddddd</p>
+            <p>Email Id: ddd@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 9 -->
+  <div id="myModal9" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Non-surgical orthopedists can be a great starting point for patients who don’t have a clear diagnosis and many orthopedic conditions can be effectively treated without surgery – up to 70% of all sports medicine injuries, in fact. If surgery becomes necessary, then they direct patients to orthopedic surgeons or include surgeons in care. </p>
+            <p>Speciality: Orthopedist
+            </p>
+            <p>Contact No: bbbbbbbbbb</p>
+            <p>Email Id: bbb@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 10 -->
+  <div id="myModal10" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: we take a whole-body approach to diagnosing and treating orthopaedic conditions, we’re often working with physicians, nurses, and physical therapists outside of our department. This offers great health benefits as well as practical organizational benefits.</p>
+            <p>Speciality: Orthopedist
+            </p>
+            <p>Contact No: ffffffffff</p>
+            <p>Email Id: fff@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 11 -->
+  <div id="myModal11" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: primary care providers (PCPs) are the best starting point when patients are experiencing a mix of orthopedic symptoms (bone and joint pain) and non-orthopedic symptoms. </p>
+            <p>Speciality: Orthopedist
+            </p>
+            <p>Contact No: cccccccccc</p>
+            <p>Email Id: ccc@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 12 -->
+  <div id="myModal12" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: Penn Orthopaedics hears from patients all the time whose lives have been drastically improved by their orthopedic care. Patients who thought they’d never be able to play with their grandkids. Patients who assumed they’d never run again. Patients whose pain made them feel too depressed to do the things they love.</p>
+            <p>Speciality: Orthopedist
+            </p>
+            <p>Contact No: hhhhhhhhhh</p>
+            <p>Email Id: hhh@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<section id="artho">
+  <div class="container-fluid">
+    <div class="container" style="background-color: azure;width:80%; float: right; text-align: center;">
+      <div class="col-md-12">
+        <h1>Arthologist</h1>
+        <br><br>
+      </div>
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="1" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Arthologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal7">Click to view More</button>
+      
+      </div>
+      
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="2" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Arthologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal8">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="3" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Arthologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal9">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="4" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Arthologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal10">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="5" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Arthologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal11">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="6" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Arthologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal12">Click to view More</button>
+      
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br>
+  <!-- Modal 13 -->
+  <div id="myModal13" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+              <br>
+              <p>Advice: Numbness or tingling, especially when it occurs on one side of the body or comes on suddenly, could be a sign of a stroke or other serious condition.</p>
+              <p>Speciality: Low Back and Neck Pain, Spinal Cord, Head Ache, Stroke, Autonomic Systems, Guillain-Barre Syndrome, Seizure and Muscular Disorders, Epilepsy, Brain Fever, Multiple Sclerosis, Headache, Convulsion & Diseases of the Central Nervous Systems
+              </p>
+              <p>Contact No: lllllllllll</p>
+              <p>Email Id: lll@gmail.com</p>
+              <button class="btn btn-primary">Get Appointment</button>
+              </center>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+   <!-- Modal 14 -->
+   <div id="myModal14" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+          <img src="Images/image9.jpg" width="100px" height="100px">
+            <br>
+            <p>Advice: If you get migraine headaches, you should probably make an appointment with a neurologist, especially when the symptoms are associated with neurological deficits or tried treatments prove ineffective.</p>
+            <p>Speciality: Low Back and Neck Pain, Spinal Cord, Head Ache, Stroke, Autonomic Systems, Guillain-Barre Syndrome, Seizure and Muscular Disorders, Epilepsy, Brain Fever, Multiple Sclerosis, Headache, Convulsion & Diseases of the Central Nervous Systems
+            </p>
+            <p>Contact No: iiiiiiiiiii</p>
+            <p>Email Id: iii@gmail.com</p>
+            <button class="btn btn-primary">Get Appointment</button>
+            </center>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 15 -->
+  <div id="myModal15" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+              <br>
+              <p>Advice:Multiple Sclerosis, Parkinson's Disease, Speech and Movement Disorders, Autism, Cerebral Palsy, Brain Injuries, Developmental Delays & Spina Bifida Treatments</p>
+              <p>Speciality: Low Back and Neck Pain, Spinal Cord, Head Ache, Stroke, Autonomic Systems, Guillain-Barre Syndrome, Seizure and Muscular Disorders, Epilepsy, Brain Fever, Multiple Sclerosis, Headache, Convulsion & Diseases of the Central Nervous Systems
+              </p>
+              <p>Contact No: mmmmmmmmmmm</p>
+              <p>Email Id: mmm@gmail.com</p>
+              <button class="btn btn-primary">Get Appointment</button>
+              </center>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 16 -->
+  <div id="myModal16" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+              <br>
+              <p>Advice: Experiencing vertigo (feeling like you're spinning) or having difficulty keeping your balance could be a sign of something more serious.</p>
+              <p>Speciality: Stroke, Stroke Thrombolysis, Cluster Headaches, Autoimmune Encephalitis, Trigeminal Neuralgia, Guillain Barre Syndrome & Multiple Sclerosis
+              </p>
+              <p>Contact No: jjjjjjjjjj</p>
+              <p>Email Id: jjj@gmail.com</p>
+              <button class="btn btn-primary">Get Appointment</button>
+              </center>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 17 -->
+  <div id="myModal17" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image8.jpg" width="100px" height="100px">
+              <br>
+              <p>Advice:Difficulty walking, shuffling your feet, tremors and unintentional jerks, can all be signs of a nervous system problem.</p>
+              <p>Speciality: Stroke, Stroke Thrombolysis, Cluster Headaches, Autoimmune Encephalitis, Trigeminal Neuralgia, Guillain Barre Syndrome & Multiple Sclerosis
+              </p>
+              <p>Contact No: nnnnnnnnnn</p>
+              <p>Email Id: nnn@gmail.com</p>
+              <button class="btn btn-primary">Get Appointment</button>
+              </center>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 18 -->
+  <div id="myModal18" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ms.Name</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="Images/image9.jpg" width="100px" height="100px">
+              <br>
+              <p>Advice: When pain is chronic, and your primary care doctor can't help you manage it, you should consider a referral to a neurologist because there could be another underlying reason for the symptoms.</p>
+              <p>Speciality: Multiple Sclerosis, Parkinson's Disease, Speech and Movement Disorders, Autism, Cerebral Palsy, Brain Injuries, Developmental Delays & Spina Bifida Treatments
+              </p>
+              <p>Contact No: kkkkkkkkkk</p>
+              <p>Email Id: kkk@gmail.com</p>
+              <button class="btn btn-primary">Get Appointment</button>
+              </center>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<section id="neuro">
+  <div class="container-fluid">
+    <div class="container" style="background-color: azure;width:80%; float: right; text-align: center;">
+      <div class="col-md-12">
+        <h1>Neurologist</h1>
+        <br><br>
+      </div>
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="1" class="fa fa-star"></span>
+        <img src="Images/image8.jpg">
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Neurologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal13">Click to view More</button>
+      
+      </div>
+      
+      <div class="col-md-4">
+        <span style="float: right;font-size: large;" id="star" tabindex="2" class="fa fa-star"></span>
+        <img src="Images/image9.jpg">
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Neurologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal14">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/image8.jpg">
+        <span style="float: right;font-size: large;" id="star" tabindex="3" class="fa fa-star"></span>
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Neurologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal15">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/image9.jpg">
+        <span style="float: right;font-size: large;" id="star" tabindex="4" class="fa fa-star"></span>
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Neurologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal16">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/image8.jpg">
+        <span style="float: right;font-size: large;" id="star" tabindex="5" class="fa fa-star"></span>
+        <br><br>
+        <p>Mr.Name</p>
+        <p>Specialist: Neurologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal17">Click to view More</button>
+      
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/image9.jpg">
+        <span style="float: right;font-size: large;" id="star" tabindex="6" class="fa fa-star"></span>
+        <br><br>
+        <p>Ms.Name</p>
+        <p>Specialist: Neurologist</p>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal18">Click to view More</button>
+      
+      </div>
+    </div>
+  </div>
+</section>
+<br><br>
+<!--Footer-->
+<footer>
+  <div class="container-fluid" style="padding:20px;color:white;background-color:#008CCB;height: inherit;">
+    <div class="container">
+      <div class="col-md-4">
+        <h3>CARETAKER</h3>
+        <img src="Images/image10.jpg" height="200px" width="200px">
+      </div>
+      <div class="col-md-4">
+        <h3>Quick Links</h3>
+        <br>
+        <ul id="footer_ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a style="color:orange" href="index3.html">Specialized Doctors</a></li>      
+          <li><a href="index2.html">Blood Donations</a></li>
+          <li><a target="blank" href="https://www.google.com/maps/search/hospital+around+me/">Hospitals Around Me</a></li>
+      </ul>
+      </div>
+      <div id="logo_sec" class="col-md-4">
+        <h3>Follow Us On</h3>
+        <a href="#"><img src="Images/logo_footer/image1.png" width="40px" height="40px"></a>
+        <a href="#"><img src="Images/logo_footer/image2.png" width="40px" height="40px"></a>
+        <a href="#"><img src="Images/logo_footer/image3.jpg" width="50px" height="40px"></a>
+        <a href="#"><img src="Images/logo_footer/image4.png" width="40px" height="40px"></a>
+        <a href="#"><img src="Images/logo_footer/image5.png" width="40px" height="40px"></a>
+      </div>
+      <div class="row" style="text-align: center;">
+        <div class="col-md-12">
+          <h3>Copyright &copy; 2021</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "caretaker-2021",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
